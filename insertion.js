@@ -1,3 +1,9 @@
+/* 
+Best: O(n) time | O(1) space complexity
+Average: O(n^2) time | O(1) space complexity
+Worst: O(n^2) time | O(1) space complexity
+
+*/
 function insertionSort (array) {
     for (let i = 1; i < array.length; i++){
         let j = i;
